@@ -70,13 +70,11 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s ease;
-  /*box-shadow: #00bfff 0 0px 0px 2px inset;*/
 }
 
 .login-form button:hover {
   background: linear-gradient(to right, #185a9d, #43cea2);
   color: #ffffff;
-  /*box-shadow: #1e90ff 0 0px 0px 40px inset;*/
 }
 
 .signup-text {
@@ -127,7 +125,6 @@ body {
   pointer-events: none;
 }
 
-/* Ícono del candado a la izquierda */
 .input-icon i.fa-lock {
   position: absolute;
   top: 50%;
@@ -135,20 +132,18 @@ body {
   transform: translateY(-50%);
   color: #ccc;
   font-size: 1em;
-  pointer-events: none;
-  /* decorativo, no clicable */
+  pointer-events: none; /* Non clickable */
 }
 
-/* Ícono del ojo a la derecha */
 .input-icon i#togglePassword {
   position: absolute;
   top: 50%;
-  right: 12px;  /* lo colocamos a la derecha del input */
+  right: 12px;  
   transform: translateY(-50%);
   color: #ccc;
   font-size: 1em;
-  cursor: pointer;  /* ahora sí clicable */
-  z-index: 2;   /* encima del input */
+  cursor: pointer;  
+  z-index: 2;   /* On top of input */
 }
 
 .alternative-loggin {
